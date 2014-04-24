@@ -1,0 +1,26 @@
+.module-menu {
+	background-color: #f0f0f0;
+	border: 1px solid #000;
+	border-bottom-width: 0;
+	position: absolute;
+}
+
+.module-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.module-menu ul li {
+	border-bottom: 1px solid #000;
+}
+.module-menu ul li a {
+	color: blue;
+	display: block;
+	padding: .15em .33em;
+	text-decoration: none;
+}
+.module-menu ul li a:focus,
+.module-menu ul li a:hover {
+	background-color: #d0d0d0;
+}
