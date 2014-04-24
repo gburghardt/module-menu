@@ -1,23 +1,24 @@
 {
 	"name": "module-menu",
-	"description": "",
+	"description": "Easy context menus",
 	"authors": [
 		"Greg Burghardt <greg_burghardt@yahoo.com>"
 	],
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": { "type": "git", "url": "https://github.com/gburghardt/module-pack.git" },
+	"repository": { "type": "git", "url": "https://github.com/gburghardt/module-menu.git" },
 	"main": [
+		"src/module/menu_module.js"
 	],
 	"dependencies": {
-		"module-base": "file:///c/Users/BurghardtG/code/git/framework/module-base/.git#master",
-		"module-utils": "file:///c/Users/BurghardtG/code/git/framework/module-utils/.git#master",
-		"oxydizr": "file:///c/Users/BurghardtG/code/git/oxydizr/.git#master"
+		"module-base": "~1.0.0",
+		"module-utils": "~1.0.0",
+		"oxydizr": "~1.0.0"
 	},
 	"devDependencies": {
 		"jasmine": "~2.0",
 		"mocking_bird": "0.0.1",
-		"bloodhound": "file:///c/Users/BurghardtG/code/git/bloodhound/.git#development",
+		"bloodhound": "~1.0.0",
 		"mustache": "~0.8"
 	}
 }
