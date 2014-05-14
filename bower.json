@@ -4,21 +4,21 @@
 	"authors": [
 		"Greg Burghardt <greg_burghardt@yahoo.com>"
 	],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"repository": { "type": "git", "url": "https://github.com/gburghardt/module-menu.git" },
 	"main": [
 		"src/module/menu_module.js"
 	],
 	"dependencies": {
-		"module-base": "~1.0.0",
-		"module-utils": "~1.0.0",
-		"oxydizr": "~1.0.0"
+		"module-base": "~1.0.1",
+		"module-utils": "~1.0.4"
 	},
 	"devDependencies": {
 		"jasmine": "~2.0",
 		"mocking_bird": "0.0.1",
 		"bloodhound": "~1.0.0",
-		"mustache": "~0.8"
+		"mustache": "~0.8",
+		"oxydizr": "~1.0.1"
 	}
 }
