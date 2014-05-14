@@ -4,13 +4,6 @@ prototype: {
 
 	KEYCODE_ESCAPE: 27,
 
-	// actions: {
-	// 	click: [
-	// 		"cancelClick",
-	// 		"chooseItem"
-	// 	]
-	// },
-
 	options: {
 		data: null,
 		disabledItemClass: "disabled",
